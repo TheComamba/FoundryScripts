@@ -28,7 +28,7 @@ nvm use node
 
 if ! command -v pnpm &> /dev/null; then
     echo "pnpm is not installed. Installing..."
-    npm install -g pnpm@latest-10
+    npm install -g pnpm@latest-11
 fi
 
 echo "Ensuring dependencies..."
